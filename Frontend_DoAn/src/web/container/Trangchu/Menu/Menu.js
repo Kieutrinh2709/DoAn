@@ -4,7 +4,7 @@ import { Link as Linkrt, useHistory } from "react-router-dom";
 import "./Menu.css";
 import Avatar from "antd/lib/avatar/avatar";
 import logo from "./../../../images/logo.jpg"
-import { Menu, Dropdown, Drawer, message, Badge } from 'antd';
+import { Menu, Dropdown, Drawer, message } from 'antd';
 import { useDispatch, useSelector } from "react-redux";
 import { Button, IconButton } from "@material-ui/core";
 import { storage } from "../../../../firebase"
@@ -226,6 +226,7 @@ function ListMenu(props) {
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
         <Linkrt className="navbar-brand" to="/" >
           <img src={logo} alt="" />
+             MemoriesTravel
         </Linkrt>
         <button
           className="navbar-toggler d-lg-none"

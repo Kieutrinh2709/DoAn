@@ -4,7 +4,7 @@ import Cardinput from "./Cardinput"
 import stripeApi from '../../api/StripeApi';
 import { message } from 'antd';
 import "./Card.css";
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { addhoadon, hoadonData } from '../container/Admin/Hoadon/HoadonSlice';
 import { useHistory } from 'react-router-dom';
 import Axios from 'axios';

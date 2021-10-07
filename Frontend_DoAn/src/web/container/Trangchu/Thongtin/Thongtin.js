@@ -7,7 +7,7 @@ import Lichsu from './Lichsutour/Lichsu'
 
 export default function Thongtin() {
     const { id } = useParams();
-    const [state, setState] = useState({ tabPosition: 'left' })
+    const [state] = useState({ tabPosition: 'left' })
 
     const { TabPane } = Tabs
     const { tabPosition } = state

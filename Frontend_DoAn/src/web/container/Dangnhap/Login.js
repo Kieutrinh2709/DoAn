@@ -1,15 +1,11 @@
 import React, { useState } from 'react'
 import './Login.css'
-import tk from './../../images/Taikhoan.png'
-import mk from './../../images/Matkhau.png'
 import { BrowserRouter as Router, Link, useHistory, Redirect } from 'react-router-dom'
 import { Button } from '@material-ui/core';
 import firebase from "firebase"
-import { StyledFirebaseAuth } from 'react-firebaseui'
 import { message } from 'antd'
 import { checklogin, inforData } from "./InforSlice"
 import { useDispatch } from 'react-redux'
-import axios from 'axios'
 import loginApi from '../../../api/LoginApi'
 import { userData } from '../Admin/Taikhoan/TaikhoanSlice'
 const uiConfig = {
@@ -68,35 +64,25 @@ function Login(props) {
             <div id="login">
                 <div className="box-login">
                     <form className="form" onSubmit={onsubmit}>
-                        <h3 className="text-uppercase text-white text-center pb-3">Đăng nhập </h3>
-                        <div className="input-group flex-nowrap">
-                            <div className="input-group-prepend">
-                                <span className="input-group-text" id="addon-wrapping">
-                                    <img src={tk} className="img-login float-left" alt="" />
-                                </span>
-                            </div>
+                        <h3 className="text-uppercase text-black text-center pb-3">Đăng nhập </h3>
+                        <div className="input-group flex-wrap">
                             <input type="text" className="form-control" placeholder="Tài khoản" value={email} name='email' onChange={onchange} aria-label="email" aria-describedby="addon-wrapping" />
                         </div>
-
-                        <div className="input-group flex-nowrap mt-3 mb-3">
-                            <div className="input-group-prepend">
-                                <span className="input-group-text" id="addon-wrapping">
-                                    <img src={mk} className="img-login float-left" alt="" />
-                                </span>
-                            </div>
+                        <div className="input-group flex-wrap mt-3 mb-3">
                             <input type="password" className="form-control" placeholder="Mật khẩu" value={password} name="password" onChange={onchange} aria-label="email" aria-describedby="addon-wrapping" />
                         </div>
 
                         <div className="form-group form-check">
                             <label className="form-check-label">
-                                <input className="form-check-input" type="checkbox" onChange="onclick" /> <span className="text-light">Nhớ mật khẩu</span>
+                                <input className="form-check-input" type="checkbox" onChange="onclick" /> <span className="text-dark">Nhớ mật khẩu</span>
                             </label>
-                            <Link to="#" onClick={hangdleDK} className="float-right text-light">Chưa có tài khoản?</Link>
+                            <Link to="#" onClick={hangdleDK} className="float-right text-dark">Chưa có tài khoản?</Link>
                         </div>
-                        <Button type="submit" variant="contained" color="primary" className="w-100 mb-4">Đăng nhập</Button>
+                        <Button type="submit" variant="contained" color="secondary" className="w-100 mb-4">Đăng nhập&nbsp;&nbsp;<i class="fas fa-sign-in-alt" aria-hidden="true"></i></Button>
                     </form>
+                    <div class="form-divider">Hoặc</div>
                     <div className="mxh mt-3">
-                        <Button variant="contained" color="primary" className="text-capitalize mb-3">
+                        <Button variant="contained" color="primary" className="text-capitalize mb-3 facebook">
                             <i className="fab fa-facebook-f mr-4"></i> Facebook
                         </Button>
                         <Button variant="contained" color="primary" className="text-capitalize float-right mb-3 twitter">

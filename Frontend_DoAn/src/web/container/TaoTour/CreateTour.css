@@ -2,7 +2,7 @@
     padding-top: 1%;
 }
 #create-tour .hr-new {
-    border: 1px solid #0bbf54;
+    border: 1px solid #0099ff;
   }
   #create-tour .title-new{
     position: relative;
@@ -23,7 +23,7 @@
     padding: 0rem 2rem;
   }
   #create-tour .head--text{
-    background-color: #e90683;
+    background-color: #0099ff;
     text-align: center;
     font-size: 1.5rem;
     font-weight: bold;

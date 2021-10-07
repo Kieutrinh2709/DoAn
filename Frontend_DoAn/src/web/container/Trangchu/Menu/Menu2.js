@@ -184,6 +184,7 @@ function ListMenu(props) {
                 <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
                     <Linkrt className="navbar-brand" to="/" >
                         <img src={logo} alt="" />
+                           MemoriesTravel
                     </Linkrt>
                     <button
                         className="navbar-toggler d-lg-none"
@@ -200,7 +201,7 @@ function ListMenu(props) {
                         <ul className="navbar-nav m-auto">
                             <li className="nav-item ">
                                 <div className="border-bot-menu">
-                                    <Linkrt className="nav-link" to="/">Trang chủ<span className="sr-only">(current)</span></Linkrt>
+                                    <Linkrt className="nav-link" to="/" >Trang chủ<span className="sr-only">(current)</span></Linkrt>
                                 </div>
                             </li>
                             <li className="nav-item">
@@ -215,18 +216,18 @@ function ListMenu(props) {
                             </li>
                             <li className="nav-item">
                                 <div className="border-bot-menu">
-                                    <Linkrt className="nav-link">Dịch vụ</Linkrt>
+                                    <Linkrt className="nav-link"  to ="/">Dịch vụ</Linkrt>
                                 </div>
                             </li>
                             <li className="nav-item">
                                 <div className="border-bot-menu">
-                                    <Linkrt className="nav-link" to="/listtintuc">Tin tức</Linkrt>
+                                    <Linkrt className="nav-link"  to="/listtintuc">Tin tức</Linkrt>
                                 </div>
                             </li>
                         </ul>
                         <Dropdown overlay={ss} trigger={['click']} >
                             <span className="nav-link" >
-                                <Avatar size="large" style={{ border: "2px solid #0abf54" }} src={
+                                <Avatar size="large" style={{ border: "2px solid black" }} src={
                                     user ?
                                         avatar ?
                                             avatar :

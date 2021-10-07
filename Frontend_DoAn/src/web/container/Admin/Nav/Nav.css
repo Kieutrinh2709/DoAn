@@ -21,15 +21,11 @@
   }
   
 #nav .site-layout .site-layout-background {
-    background: silver;
+    background: white;
   }
-/* #nav .counthoadon{
-  color: red;
-  position: absolute;
-  border: 1px solid ;
-} */
+
 #nav .bordercount{
   width: 50px;
   height: 50px;
-  border: 1px solid red;
+  border: 1px solid #0099ff;
 }

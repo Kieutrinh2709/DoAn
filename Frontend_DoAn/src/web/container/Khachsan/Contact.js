@@ -68,7 +68,9 @@ export default function Contact() {
                             </div>
                             <div className="btn-dt">
                                 <Button className=" pl-5 pr-5" variant="contained" color="primary">
+                                    <a href = "https://vinpearl.com/vi/hotels/vinpearl-resort-spa-da-nang">
                                     Liên hệ ngay
+                                    </a>
                                 </Button>
                             </div>
                         </form>

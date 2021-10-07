@@ -52,14 +52,14 @@ export default function Hotel() {
                             </div>
                             <div className="content___box---title">
                                 <div className="content___box---title---name">
-                                    <span>Nhím house</span>
+                                    <span> Mr.Happy Homestay Đà Lạt</span>
                                 </div>
                                 <div className="content___box---title---price">
                                     <span>Giá từ: <span className="price-text">550.000 vnđ</span></span>
                                 </div>
                             </div>
                             <div className="content___box---btn">
-                                <button><Link to="/detailhotel/3">Book ngay</Link></button>
+                                <button><a href = "https://www.agoda.com/da-lat-mr-happy-homestay_2/hotel/dalat-vn.html?cid=1844104">Book ngay</a></button>
                             </div>
                         </div>
                     </div>
@@ -77,7 +77,7 @@ export default function Hotel() {
                                 </div>
                             </div>
                             <div className="content___box---btn">
-                                <button><Link to="/detailhotel/3">Book ngay</Link></button>
+                                <button><a href = "http://centralluxuryhalonghotel.com/">Book ngay</a></button>
                             </div>
                         </div>
                     </div>
@@ -95,7 +95,7 @@ export default function Hotel() {
                                 </div>
                             </div>
                             <div className="content___box---btn">
-                                <button><Link to="/detailhotel/3">Book ngay</Link></button>
+                                <button><a href = "https://www.themystdongkhoihotel.com/vn">Book ngay</a></button>
                             </div>
                         </div>
                     </div>
@@ -106,14 +106,14 @@ export default function Hotel() {
                             </div>
                             <div className="content___box---title">
                                 <div className="content___box---title---name">
-                                    <span>Phong Nha river house</span>
+                                    <span>LUCKY HOMES</span>
                                 </div>
                                 <div className="content___box---title---price">
                                     <span>Giá từ: <span className="price-text">500.000 vnđ</span></span>
                                 </div>
                             </div>
                             <div className="content___box---btn">
-                                <button><Link to="/detailhotel/3">Book ngay</Link></button>
+                                <button><a href = "http://www.booking.com/Share-Y2NLsS">Book ngay</a></button>
                             </div>
                         </div>
                     </div>
@@ -124,14 +124,14 @@ export default function Hotel() {
                             </div>
                             <div className="content___box---title">
                                 <div className="content___box---title---name">
-                                    <span>Ninh Bình Retreat</span>
+                                    <span>Emeralda Resort Ninh Binh</span>
                                 </div>
                                 <div className="content___box---title---price">
-                                    <span>Giá từ: <span className="price-text">800.000 vnđ</span></span>
+                                    <span>Giá từ: <span className="price-text">1.622.000 vnđ</span></span>
                                 </div>
                             </div>
                             <div className="content___box---btn">
-                                <button><Link to="/detailhotel/3">Book ngay</Link></button>
+                                <button><a href = "https://www.booking.com/hotel/vn/emeralda-ninh-binh-resort-and-spa.vi.html?aid=1250365;label=huno.1-xrg%3ACjwKCAjwtfqKBhBoEiwAZuesiH4QyUkYjekIBtueBOQHaMa4i8S_vO3IzftVRdkQq9sRMkgzCCFnQBoCD2IQAvD_BwE;sid=ae4eed28e7b8386b0076bcb28cba15e9;all_sr_blocks=35631801_223913270_0_1_0;checkin=2021-10-14;checkout=2021-10-15;dest_id=-3724181;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=0;highlighted_blocks=35631801_223913270_0_1_0;hpos=0;matching_block_id=35631801_223913270_0_1_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=35631801_223913270_0_1_0__170893800;srepoch=1633616029;srpvid=9a2f640df7190149;type=total;ucfs=1;sig=v14dieTz-T&">Book ngay</a></button>
                             </div>
                         </div>
                     </div>

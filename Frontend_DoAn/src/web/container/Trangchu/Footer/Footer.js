@@ -1,4 +1,3 @@
-
 import React from "react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
@@ -41,18 +40,6 @@ function Footer(props) {
                   <li className="collection-item"><i class="fas fa-phone"></i> +84 917 803 105</li>
                   <li className="collection-item"><i class="fas fa-envelope-square"></i> memoriestravel@gmail.com</li>
                 </ul>
-                <p>
-                  <strong>Email: </strong>
-                  <i>{ok.email}</i>
-                </p>
-                <p>
-                  <strong>Số điện thoại: </strong>
-                  <i>+{ok.sdt}</i>
-                </p>
-                <p>
-                  <strong>Địa chỉ: </strong>
-                  <i>{ok.diachi}</i>
-                </p>
               </div>
             ))}
             <hr className="clearfix w-100 d-md-none pb-3" />
@@ -61,25 +48,25 @@ function Footer(props) {
 
               <ul className="list-unstyled">
                 <li>
-                  <Link to="#">
+                  <Link to="/">
                     <span className="fa fa-angle-double-right mr-2"></span>
                   Trang chủ
                </Link>
                 </li>
                 <li>
-                  <Link to="#">
+                  <Link to="/listtintuc">
                     <span className="fa fa-angle-double-right mr-2"></span>
                     Tin tức
                </Link>
                 </li>
                 <li>
-                  <Link to="#">
+                  <Link to="/">
                     <span className="fa fa-angle-double-right mr-2"></span>
                   Dịch vụ
                </Link>
                 </li>
                 <li>
-                  <Link to="#">
+                  <Link to="/listtour">
                     <span className="fa fa-angle-double-right mr-2"></span>
                   Khuyến mãi
                </Link>
